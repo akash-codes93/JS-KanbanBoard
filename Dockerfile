@@ -6,7 +6,7 @@ RUN mkdir -p $APP_DIR
 
 WORKDIR ${APP_DIR}
 
-ADD ./package.json .
+ADD package.json .
 
 RUN ["npm", "install"]
 
